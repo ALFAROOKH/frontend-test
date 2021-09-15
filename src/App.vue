@@ -1,30 +1,20 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="container mx-20 flex pt-6 space-x-20">
+    <h1 class="text-6xl text-purple-900 font-bold mr-20">Front End Games</h1>
+    <div class="pt-6 font-medium space-x-10 text-purple-900">
+      <router-link to="/">Home</router-link>
+      <router-link to="/">About</router-link>
+      <router-link to="/">Games</router-link>
+      <router-link to="/">Discover</router-link>
+      <router-link to="/">Global Rank</router-link>
+      <router-link to="/">Sign in</router-link>
+    </div>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+  background-color: rgb(203, 202, 255);
 }
 </style>
