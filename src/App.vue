@@ -7,7 +7,10 @@
       <router-link to="/">Games</router-link>
       <router-link to="/">Discover</router-link>
       <router-link to="/">Global Rank</router-link>
-      <router-link to="/">Sign in</router-link>
+      <button class="p-2 bg-purple-900 rounded-full text-purple-200">
+        Sign In
+      </button>
+      <!-- <router-link to="/">Sign in</router-link> -->
     </div>
   </div>
   <router-view />
